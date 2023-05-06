@@ -16,7 +16,7 @@ namespace M05_UF3_P3_Frogger
 
 
         public Lane(int posY, bool speedPlayer, ConsoleColor background, bool damageElements, bool damageBackground, float elementsPercent, char elementsChar, List<ConsoleColor> colorsElements)
-        // Constructor de clase. Genera de forma random algunos elementos en el carril
+        // -> Constructor de clase. Genera de forma random algunos elementos en el carril
         {
             this.posY = posY;
             this.speedElements = Utils.rnd.Next(-10, 10) < 0 ? 1 : -1;  
